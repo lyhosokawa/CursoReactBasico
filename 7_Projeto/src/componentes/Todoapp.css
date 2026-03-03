@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.438);
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+}
+
+.titulo {
+    color: rgb(80, 36, 180);
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+}
+
+.adicionar {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    padding: 10px;
+    margin-bottom: 10px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.excluir {
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
